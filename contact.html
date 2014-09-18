@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Volvert</title>
+    <link rel="shortcut icon" type="images/x-icon" href="images/icone volvert.png">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+
+    <header>
+      <div class="espace"></div> 
+    </header>
+    
+    <section id="info">
+
+      <div class="espace"></div> 
+
+     <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+            <div id="map" style="width: 100%; height: 400px;"></div>
+
+              <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+              <script type="text/javascript">
+                var myOptions = {
+                    zoom: 14,
+                    center: new google.maps.LatLng(47.2471739, -1.504991700000005),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    styles: []
+                };
+
+                var map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+                 //création du marqueur
+                  var marqueur = new google.maps.Marker({
+                    position: new google.maps.LatLng(47.2471739, -1.504991700000005),
+                    map: map,
+                    icon: 'images/marker.gif'
+                  });
+
+              </script>
+        </div>
+        <div class="col-sm-6">
+            <div class="contact">
+            <h3>Contact</h3>
+            <p>Nantes Créatic</p>
+            <p>2 rue Robert le Ricolais, 44300 NANTES</p>
+            <p>contact@volvert.fr</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+    <footer>
+
+    
+            <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2>Suivez nous !</h2>
+                <ul class="list-inline">
+                  <li><a href="https://www.facebook.com/pages/Volvert/262277657268070?fref=ts"> <i class="fa fa-facebook-square"></i></a>
+                <a href="https://twitter.com/VOLVERT_"> <i class="fa fa-twitter-square"></i> </a>
+                  </li>
+                </ul>               
+            </div>
+            <div class="col-sm-6">
+               <h2>Contactez nous !</h2>
+
+              <a href="contact.html" class='mail'> contact</i></a> 
+            </div>
+          </div>
+        </div>
+      <div class="espace"></div> 
+
+    </footer>
+   
+
+  </body>
+</html>

@@ -1,0 +1,119 @@
+html,body{
+	position: relative;
+	margin: 0px;
+	height: 100%;
+	font-family: 'Quicksand';
+	background-color: rgb(175,198,93);
+}
+
+/****
+textes
+****/
+strong { 	color: rgb(62,84,99);}
+p {			color: rgb(62,84,99);}
+a {			color: rgb(62,84,99);text-decoration: none;}
+a:hover {	color: white;text-decoration: none;}
+ul {		list-style-type: none;}
+i {			font-size: 3.5em;
+			margin-right: 0.2em;
+			}
+a.mail {
+	background-color: rgb(62,84,99);
+    font-size: 1.7em;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+a.mail:hover{
+	background-color: white;
+	color: rgb(62,84,99);
+}
+p {	font-size: 1.2em;}
+
+/****
+titres
+*****/
+h2{
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+
+/*****
+styles généraux
+******/
+
+.espace {
+	height: 2em;
+}
+
+/*****
+Layout
+******/
+
+/**** header *****/
+
+header {
+	background-image: url("../images/Haut.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 400px;
+}
+
+
+/**** infos *****/
+
+section#info {
+	background: #fff url("../images/fleche.png") top center no-repeat;
+	padding: 51px 0;
+}
+
+section.text
+{
+	padding-left: 0;
+	background: none;
+	margin-left: 250px;
+	margin-right: 100px;
+}
+@media (min-width: 992px) {
+	section.text
+	{
+		background: url("../images/main_direction.png") left center no-repeat;
+		background-size: 150px;
+		padding-left: 200px;
+	}
+}
+
+/**** Contact *****/
+
+div.map{
+	margin-top: 4em;
+}
+
+div.contact{
+	padding-left: 3em;
+	font-size: 1.2em;
+}
+
+h3{
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+/**** footer *****/
+footer
+{
+	text-align: center;
+	color: white;
+	margin-top: 70px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
