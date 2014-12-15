@@ -201,6 +201,7 @@ section.text2
 		background-size: 150px;
 		padding-left: 200px;
 		padding-top: 50px;
+<<<<<<< HEAD
 	}
 }
 
@@ -294,6 +295,101 @@ section[class='kiss']
 	}
 }
 
+=======
+	}
+}
+
+div[class='titre']
+{
+	text-align: center;
+}
+
+/**** Produit *****/
+
+div[class='video2']
+{
+	margin-bottom: 50px;
+}
+
+object
+{
+	margin: auto;
+	display: block;
+}
+
+section[class='produit']
+{
+	background: rgb(235,235,235) url("../images/le v.png") bottom right no-repeat;
+	text-align: left;
+	font-weight: 700;
+	font-family: 'Montserrat'
+}
+
+img[class='val']
+{
+	margin: auto;
+	display: block;
+	padding: 25px;
+	float: left;
+}
+
+section.produit p{
+	padding: 50px;
+}
+	
+
+/**** video *****/
+
+section[clas='video']
+{
+	background-color: rgb(255,255,255);
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+div[class='textvideo']
+{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+	div[class='textvideo']
+{
+	padding-left: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+}
+
+div[class='video']
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/**** kiss *****/
+
+section[class='kiss']
+{
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+@media (min-width: 992px) {
+	section.kiss
+	{
+		padding-right: 300px;
+		padding-left: 300px;
+	}
+}
+
+>>>>>>> origin/gh-pages
 /**** photo *****/
 
 div[id='photo']
@@ -354,4 +450,8 @@ footer
 	margin-right: 0px;
 	margin-bottom: 0px;
 	background-color: rgb(175,198,93);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/gh-pages
